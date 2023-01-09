@@ -85,6 +85,7 @@ body {
 	padding: 10px;
 	margin-top: 20px;
 	width: 100%;
+	cursor: pointer;
 }
 
 #login-btn {
@@ -98,6 +99,7 @@ body {
 	padding: 10px;
 	margin-top: 20px;
 	width: 100%;
+	cursor: pointer;
 }
 
 .daily, .quote {
