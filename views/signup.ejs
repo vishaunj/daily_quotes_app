@@ -1,0 +1,52 @@
+<!-- Vishaun Jones
+Final Project -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/194f4bae1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg"/>
+    <link rel="stylesheet" href="https://use.typekit.net/hap0koo.css">
+    <title>Sign Up</title>
+  </head>
+  <body style="padding-top: 100px; padding-bottom: 100px;">
+    <div class="container">
+      <div class="header">
+        <h1><span class="daily">Daily Quote</span>Sign Up!</h1>
+        <h4>Begin Recieving Daily Quotes Today</h4>
+      </div>
+      <form id="sign-up-form" class="form" action="/signup" method="post">
+        <% if(typeof errors != 'undefined') { %>
+          <% errors.forEach(function(error) { %>
+            <small style="color:red"><%= error.msg %></small><br>
+          <%  }) %>
+        <% } %>
+        <br>
+        <div class="form-settings">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder="Enter your first name" value="<%= typeof name != 'undefined' ? name : '' %>">
+        </div>
+        <div class="form-settings">
+          <label for="username">Username</label>
+          <input id="username" type="text" name="username" placeholder="Create username" value="<%= typeof username != 'undefined' ? username : '' %>">
+        </div>
+        <div class="form-settings">
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" placeholder="Create password" value="<%= typeof password != 'undefined' ? password : '' %>">
+        </div>
+        <div class="form-settings">
+          <label for="password2">Confirm Password</label>
+          <input id="password" type="password" name="password2" placeholder="Re-enter password" value="<%= typeof password2 != 'undefined' ? password2 : '' %>">
+        </div>
+        <div class="form-settings">
+          <input id="submit-btn" type="submit" name="submit-btn" value="Submit">
+          <br>
+          <p>Already have an account? <a href="/login">Login</a></p>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,114 @@
+/* Vishaun Jones
+CSG3066 Final Project */
+
+* {
+  box-sizing: border-box;
+}
+
+.quote_background {
+  background-image: url(https://d2fdpghjkacqa1.cloudfront.net/wp-content/uploads/2019/02/Feb7_BlogHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #ed7769;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #e0d7d3;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #EDE3DF;
+  border-bottom: 1px solid #D4CBC7;
+  padding: 20px 40px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-settings, .form-settings.success {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  border-color: #000000;
+}
+
+.form-settings label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-settings input {
+	border: 2px solid #D4CBC7;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+
+#submit-btn, #signup-btn {
+  background-color: #D4695D;
+	border: 2px solid #D4695D;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+#login-btn {
+  background-color: #EFEFEF;
+	border: 2px solid #EFEFEF;
+	border-radius: 4px;
+	color: #000000;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.daily, .quote {
+  display: inline-block;
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+
+.main-header {
+  text-align: center;
+}

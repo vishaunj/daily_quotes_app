@@ -1,0 +1,39 @@
+<!-- Vishaun Jones
+Final Project -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://kit.fontawesome.com/194f4bae1e.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg" />
+  <link rel="stylesheet" href="https://use.typekit.net/hap0koo.css">
+  <title>Your Daily Quote</title>
+</head>
+
+<body class="quote_background">
+  <section>
+    <div class="quote_page">
+      <div class="welcome_message">
+      </div>
+      <div class="quote_section">
+        <h1 id="quote" class="quote" style="font-size:25px; overflow-wrap: break-word;"><%= quote %></h1>
+        <p id="author" class="author" style="font-size:25px;"><%= author %></p>
+      </div>
+    </div>
+    <div class="logout_section">
+      <form id="logout-form" class="form" action="/login" method="get" style="padding-top:0;">
+        <div class="form-settings">
+          <button id="submit-btn" type="submit" name="button" style="width: 200px; margin: 0 auto;">Log Out</button>
+        </div>
+      </form>
+      <div class="attribute">
+        <p>Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank" style="left: 25%;">ZenQuotes API</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
