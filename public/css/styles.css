@@ -73,9 +73,8 @@ body {
 	width: 100%;
 }
 
-
-#submit-btn, #signup-btn {
-  background-color: #D4695D;
+#signup-btn, #submit-btn {
+  	background-color: #D4695D;
 	border: 2px solid #D4695D;
 	border-radius: 4px;
 	color: #fff;
@@ -88,8 +87,16 @@ body {
 	cursor: pointer;
 }
 
+#signup-btn:hover {
+	opacity: 0.95;
+}
+
+#submit-btn:hover {
+	opacity: 0.95;
+}
+
 #login-btn {
-  background-color: #EFEFEF;
+  	background-color: #EFEFEF;
 	border: 2px solid #EFEFEF;
 	border-radius: 4px;
 	color: #000000;
@@ -100,6 +107,10 @@ body {
 	margin-top: 20px;
 	width: 100%;
 	cursor: pointer;
+}
+
+#login-btn:hover {
+	opacity: 0.7;
 }
 
 .daily, .quote {
