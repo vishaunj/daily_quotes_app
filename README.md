@@ -1,4 +1,4 @@
-# [DailyQuotes](https://dailyquotes-production.up.railway.app/)
+# [DailyQuotes](https://daily-quotes-app.up.railway.app/)
 
 ## This is a fully functional web application that generates a motivational quote whenever a user logs in.
 
@@ -27,7 +27,7 @@ Tech stack:
 * [Zen Quotes API](https://zenquotes.io/)
 * [Railway](https://railway.app/) for deployment
 
-### [Click here to access the application](https://dailyquotes-production.up.railway.app/)
+### [Click here to access the application](https://daily-quotes-app.up.railway.app/)
 
 
 
